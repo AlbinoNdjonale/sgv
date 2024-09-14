@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sgv"
+version = "1.0.0"
+description = "app desktop to manager sale"
+authors = ["Albino Ndjonale <albinondjonale1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"
+pyqt6 = "^6.7.1"
+mysql-connector = "^2.2.9"
+
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

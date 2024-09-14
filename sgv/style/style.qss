@@ -1,0 +1,110 @@
+QTabWidget, QTabWidget QButton, QMainWindow {
+    background: #ddd;
+}
+
+QTabWidget QLabel, QTextEdit, QListWidget, QLabel {
+    color: #111;
+}
+
+.bg-main {
+    background: #aaf;
+}
+
+.bg-light {
+    background: #fff;
+}
+
+.better-visible, #login QLabel, #edit-user > QLabel {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn {
+    background: #00a;
+    color: #fff;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.edit {
+    background: #8a56ff;
+    border-radius: 7px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.better-visible2, #form_sale QLabel, #form_sale QLineEdit {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.no-edit {
+    background: #b7e2ff;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.box {
+    background: #aaf;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.box-light {
+    background: #fff;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.theader {
+    border-bottom: 2px solid black;
+    background: #999;
+}
+
+.btn-remove {
+    color: #ff1a1a;
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid #ff1a1a;
+    padding: 4px;
+}
+
+.btn-cancel {
+    background: #ff1a1a;
+    border-radius: 7px;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#wait {
+    background: #666;
+}
+
+#wait .point {
+    border-radius: 13;
+}
+
+#date {
+    color: #33e;
+}
+
+#time {
+    font-size: 25px;
+}
+
+.area_receita QLabel, .area_receita QSpinBox {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+.area_receita QLabel {
+    background: #b7e2ff;
+}
+
+.area_receita QSpinBox {
+    background: #8a56ff;
+}
